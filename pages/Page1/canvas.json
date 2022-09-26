@@ -5182,8 +5182,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "obj_var.serverid()",
-                "obj_var.servertype()"
+                "obj_var.servertype()",
+                "obj_var.serverid()"
               ],
               "timeoutInMillisecond": 10000
             },
