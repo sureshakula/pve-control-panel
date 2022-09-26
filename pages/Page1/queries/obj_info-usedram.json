@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tvar res = status_.data.data.mem / status_.data.data.maxmem * 100\n\t\treturn Math.round(res * 100) / 100\n\t\t}",
+      "body": "() => {\n  var res = status_.data.data.mem / status_.data.data.maxmem * 100;\n  return Math.round(res * 100) / 100;\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tvar res = status_.data.data.mem / status_.data.data.maxmem * 100\n\t\treturn Math.round(res * 100) / 100\n\t\t}"
+      "() => {\n  var res = status_.data.data.mem / status_.data.data.maxmem * 100;\n  return Math.round(res * 100) / 100;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

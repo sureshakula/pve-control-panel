@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {return \"qemu\"}",
+      "body": "() => {\n  return \"qemu\";\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {return \"qemu\"}"
+      "() => {\n  return \"qemu\";\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

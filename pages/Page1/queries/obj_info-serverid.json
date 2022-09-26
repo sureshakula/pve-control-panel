@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn status_.data.data.name\n\t\t}",
+      "body": "() => {\n  return status_.data.data.name;\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn status_.data.data.name\n\t\t}"
+      "() => {\n  return status_.data.data.name;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

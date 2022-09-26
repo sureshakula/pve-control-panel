@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\tfunction secondsToString(seconds)\n\t\t{\n\t\tvar numdays = Math.floor((seconds % 31536000) / 86400); \n\t\tvar numhours = Math.floor(((seconds % 31536000) % 86400) / 3600);\n\t\tvar numminutes = Math.floor((((seconds % 31536000) % 86400) % 3600) / 60);\n\t\tvar numseconds = (((seconds % 31536000) % 86400) % 3600) % 60;\n\t\treturn numdays + \" dag(e) \" + numhours + \" time(r) \" + numminutes + \" minut(ter) \" + numseconds + \" sekund(er)\";\n\t\t}\n\t\treturn secondsToString(status_.data.data.uptime)\n\t}",
+      "body": "() => {\n  function secondsToString(seconds) {\n    var numdays = Math.floor(seconds % 31536000 / 86400);\n    var numhours = Math.floor(seconds % 31536000 % 86400 / 3600);\n    var numminutes = Math.floor(seconds % 31536000 % 86400 % 3600 / 60);\n    var numseconds = seconds % 31536000 % 86400 % 3600 % 60;\n    return numdays + \" dag(e) \" + numhours + \" time(r) \" + numminutes + \" minut(ter) \" + numseconds + \" sekund(er)\";\n  }\n  return secondsToString(status_.data.data.uptime);\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\tfunction secondsToString(seconds)\n\t\t{\n\t\tvar numdays = Math.floor((seconds % 31536000) / 86400); \n\t\tvar numhours = Math.floor(((seconds % 31536000) % 86400) / 3600);\n\t\tvar numminutes = Math.floor((((seconds % 31536000) % 86400) % 3600) / 60);\n\t\tvar numseconds = (((seconds % 31536000) % 86400) % 3600) % 60;\n\t\treturn numdays + \" dag(e) \" + numhours + \" time(r) \" + numminutes + \" minut(ter) \" + numseconds + \" sekund(er)\";\n\t\t}\n\t\treturn secondsToString(status_.data.data.uptime)\n\t}"
+      "() => {\n  function secondsToString(seconds) {\n    var numdays = Math.floor(seconds % 31536000 / 86400);\n    var numhours = Math.floor(seconds % 31536000 % 86400 / 3600);\n    var numminutes = Math.floor(seconds % 31536000 % 86400 % 3600 / 60);\n    var numseconds = seconds % 31536000 % 86400 % 3600 % 60;\n    return numdays + \" dag(e) \" + numhours + \" time(r) \" + numminutes + \" minut(ter) \" + numseconds + \" sekund(er)\";\n  }\n  return secondsToString(status_.data.data.uptime);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

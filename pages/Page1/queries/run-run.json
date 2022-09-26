@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\ttry{\n\t cloudflare_.run()\n\t status_.run()\n   obj_var.current_node()\n\t obj_info.status()\n\t obj_info.uptime()\n\t obj_ip.current()\n\t }\n\t\tcatch(error){}\n\t}",
+      "body": "async () => {\n  try {\n    cloudflare_.run();\n    status_.run();\n    obj_var.current_node();\n    obj_info.status();\n    obj_info.uptime();\n    obj_ip.current();\n  } catch (error) {}\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\ttry{\n\t cloudflare_.run()\n\t status_.run()\n   obj_var.current_node()\n\t obj_info.status()\n\t obj_info.uptime()\n\t obj_ip.current()\n\t }\n\t\tcatch(error){}\n\t}"
+      "async () => {\n  try {\n    cloudflare_.run();\n    status_.run();\n    obj_var.current_node();\n    obj_info.status();\n    obj_info.uptime();\n    obj_ip.current();\n  } catch (error) {}\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

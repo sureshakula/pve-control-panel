@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tif (obj_var.current_node() == \"proxmox\") {return \"dk-sorø-1\"} else{return \"dk-roskilde-1\"}\n\t}",
+      "body": "() => {\n  if (obj_var.current_node() == \"proxmox\") {\n    return \"dk-sorø-1\";\n  } else {\n    return \"dk-roskilde-1\";\n  }\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tif (obj_var.current_node() == \"proxmox\") {return \"dk-sorø-1\"} else{return \"dk-roskilde-1\"}\n\t}"
+      "() => {\n  if (obj_var.current_node() == \"proxmox\") {\n    return \"dk-sorø-1\";\n  } else {\n    return \"dk-roskilde-1\";\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

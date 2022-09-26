@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tif (cloudflare_.data.result[\"0\"][\"content\"] == \"s51.ip.tawfek.dk\") {return \"87.104.45.132\"}\n\t\telse if (cloudflare_.data.result[\"0\"][\"content\"] == \"u7a.ip.tawfek.dk\") {return \"87.104.45.132\"}\n\t  else {return \"0.0.0.0\"}}",
+      "body": "() => {\n  if (cloudflare_.data.result[\"0\"][\"content\"] == \"s51.ip.tawfek.dk\") {\n    return \"87.104.45.132\";\n  } else if (cloudflare_.data.result[\"0\"][\"content\"] == \"u7a.ip.tawfek.dk\") {\n    return \"87.104.45.132\";\n  } else {\n    return \"0.0.0.0\";\n  }\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tif (cloudflare_.data.result[\"0\"][\"content\"] == \"s51.ip.tawfek.dk\") {return \"87.104.45.132\"}\n\t\telse if (cloudflare_.data.result[\"0\"][\"content\"] == \"u7a.ip.tawfek.dk\") {return \"87.104.45.132\"}\n\t  else {return \"0.0.0.0\"}}"
+      "() => {\n  if (cloudflare_.data.result[\"0\"][\"content\"] == \"s51.ip.tawfek.dk\") {\n    return \"87.104.45.132\";\n  } else if (cloudflare_.data.result[\"0\"][\"content\"] == \"u7a.ip.tawfek.dk\") {\n    return \"87.104.45.132\";\n  } else {\n    return \"0.0.0.0\";\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

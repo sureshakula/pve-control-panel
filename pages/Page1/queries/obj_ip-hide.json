@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\trun.run()\n\t\tshowModal('Modal2')\n\t}",
+      "body": "async () => {\n  run.run();\n  showModal('Modal2');\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\trun.run()\n\t\tshowModal('Modal2')\n\t}"
+      "async () => {\n  run.run();\n  showModal('Modal2');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

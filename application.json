@@ -1,4 +1,10 @@
 {
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    }
+  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
@@ -13,9 +19,5 @@
   "evaluationVersion": 2,
   "applicationVersion": 1,
   "isManualUpdate": false,
-  "createdAt": {
-    "seconds": 1648539335,
-    "nanos": 506000000
-  },
   "deleted": false
 }
